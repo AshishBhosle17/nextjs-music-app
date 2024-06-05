@@ -1,3 +1,4 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 
 
@@ -7,6 +8,7 @@ export default function Home() {
       bg-grid-white/[0.2]">
         <h1 className="text-2xl text-center">Next with Ashish</h1>
         <HeroSection />
+        <FeaturedCourses />
     </main>
   )
 }
